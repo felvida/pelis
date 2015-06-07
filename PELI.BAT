@@ -5,15 +5,15 @@ if "%path%"=="" goto er98
 pause
 set red=sNet2010
 if "%1"=="98" goto er98
-if exist d:\bin\f7\f7.exe goto f7
+if exist exe\f7.exe goto f7
 goto fin
 :er98
 echo w98
-\bin\f2\foxpro pelis
+exe\foxpro pelis
 go to yarun
 :f7
 echo F7
-d:\bin\f7\f7.exe pelis
+exe\f7\f7.exe pelis
 :yarun
 
 DEL *.BAK
