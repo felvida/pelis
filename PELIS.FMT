@@ -1,0 +1,17 @@
+@  5, 20  SAY "PROGRAMITA PARA GESTION DE ./PELIS.DBF"
+@  5, col()+1 SAY "SOUND:"+AUXI->sonido
+@  7, 24  SAY "H. HOJEAR BD PELIS.DBF"
+@  8, 24  SAY "M. METER PELIS DE ./DIR.TXT"
+@  9, 24  SAY "L. LISTADO PELICULAS"
+@ 10, 24  SAY "B. BUSCAR UNA PELICULA"
+@ 11, 24  SAY "A. AGRUPA SUMANDO PELICULAS (OCUPA)"
+@ 12, 24  SAY "O. OTRO  LISTADO CON SUMAS POR DVD"
+@ 13, 24  SAY "N. listado ordenado por nombre"
+@ 14, 24  SAY "K. busca en bd pelicula"
+@ 15, 24  SAY "P. listado filtrado dvd0"
+@ 16, 24  SAY "C. Configuracion"
+@ 17, 24  SAY "S. SALIR"
+@ 18, 24  SAY "ELIGE UNA OPCION:"
+@ 18, 45  GET  AUXI->S_N
+@ 18,col()+5 say "HSBMALONKP"
+@  6, 19  TO 20, 72

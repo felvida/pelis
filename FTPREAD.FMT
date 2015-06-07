@@ -1,0 +1,11 @@
+@  3,  5  SAY "Modificar parametros cuenta ftp"
+@  5,  5  SAY "Cerrojo ftp:"
+@  5, 18  GET  AUXI->LOCKFTP
+@  6,  5  SAY "Dir. ftp:"
+@  6, 18  GET  AUXI->DIRFTP
+@  7,  5  SAY "Usuario FTP:"
+@  7, 18  GET  AUXI->USUFTP
+@  8,  5  SAY "Clave ftp:"
+@  8, 18  GET  AUXI->VERFTP
+@  4,  0  TO  9, 48  
+
