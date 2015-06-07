@@ -1,5 +1,5 @@
 # pelis
-B.D. home con pelis
+Base de datos para guardar mis pelis, sobre DOS, o windows
 Es un programa para uso domestico, me permite ver la lista de peliculas que he visto
 y he grabado porque me gustan
 Esta programado en lenguaje dbase simple, es decir con comandos basicos.
